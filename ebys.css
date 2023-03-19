@@ -1,0 +1,295 @@
+/*
+BURAYA DAHA SONRA TEKRAR BAKILACAK. SAYFAYI SOLA KAYDIRMAK İÇİN
+canvas {left: -90px!important; position:absolute}
+.e-de-text-target {left: -90px!important}
+.e-de-background {left: -90px!important}
+.e-de-blink-cursor .e-de-cursor-animation {left: -90px!important}
+*/
+
+/*Sol üst logo */
+.ebys-logo-div {
+    content: url("https://i.ibb.co/Vq3qmkc/Pngegg-1.png");
+    margin-bottom: -65px;
+    padding: 8px;
+    display: inline;
+}
+.sb-logo {
+  content: url("https://i.ibb.co/D4cJMnH/Sb-logo-4ac28d5f.png")
+}
+
+/*yazıların listesinde alttaki şu kadar satırdan yazan alan*/
+.main-document-list-object-paging {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #fafafa;
+    background: linear-gradient(0deg,#d3d3d3,#fff);
+    margin: 0;
+    overflow: hidden;
+}
+
+/*Tarihçe v.sdeki boş satırları alıyor*/
+tr[style*="height: 49"] {display:none;}
+ 
+/*Arkadaki TASLAK ibaresinin seçilmesini engelliyor.*/
+div[style*="scaleX(0.2923"] {
+  visibility:hidden!important; 
+} 
+
+.sbn-favorite-card p {font-size: .6rem}
+
+/*Kırmızı yuvarlak içinde sayı olan yerleri gri yapıyor*/
+.countcontent>span>span {
+  background-color: dimgray!important;}
+
+/*Üstteki Tuşlar tarihçeg v.s*/
+.document-data-button>span {
+  background-color: dimgray;}
+.document-data-button {
+  background: linear-gradient(0deg,transparent,dimgray 50%,transparent);}
+.main-document-list-object>li .title>label { color: red; }
+.sbn-document-workflow-button--color {
+    color: dimgray!important;
+}
+
+.badge-red {
+    right: -12px;
+    position: relative;
+    top: -7px;
+  background: black; }
+
+.badge-nav {
+  background: dimgray; }
+
+#sidebar-wrapper {
+ background: linear-gradient(90deg, rgba(214, 214, 214, 1) 33%,#f9f9f9 80%);
+ background-color: #F9F9F9!important;
+}
+
+.mobil-menu {
+    background-color: #F9F9F9!important;
+}
+
+.navbar-glass {
+    background-color: #F9F9F9!important;
+}
+
+body  {color:black!important;}
+
+.container-fluid {
+  background-color: #F9F9F9!important;}
+
+.main-document-list-object>li .subject {
+    color: #151515;
+    font-size: .76rem;
+    font-weight: 500;
+}
+
+.ara-div {
+    background-color: #ebebeb!important;
+}
+
+.btn-ara {background-color: #666666;}
+.btn-ara:hover {background-color:black;}
+
+.sb-search-filter-buttom {
+    background-color: #d9d9d9;
+    color: #545454;
+}
+
+.sbn-transfer-list-table table>thead>tr>th {
+  background-color: dimgray!important;}
+
+
+
+
+/*Sol Alttaki 3 tane buton */
+.menu-alt-buttons li span {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+ background: linear-gradient(0deg, rgba(214, 214, 214, 1) 0%, rgba(249,249,249,1) 100%); 
+    color: #464646;
+  border: 0.005rem dotted  lightgray;
+}
+.menu-alt-buttons li:hover span {
+ background: linear-gradient(180deg, rgba(130, 130, 130, 1) 45%, rgba(200,200,200,1) 90%); 
+  color: #464646;
+  border: 0.005rem solid  gray;}
+
+.menu-alt-list>li:hover { background: linear-gradient(180deg, rgba(150, 150, 150, 1) 15%, rgba(200,200,200,1) 90%); 
+}
+
+.menu-alt-list {
+ background: linear-gradient(0deg, rgba(214, 214, 214, 1) 0%, rgba(249,249,249,1) 100%); 
+}
+
+.edm-loading-logo {
+    content: url("https://i.ibb.co/9r3xsDt/output-onlinegiftools-1.gif");
+}
+
+
+.edm-loading-logo {
+    content: url("https://ebys.saglik.gov.tr/sign/images/sb_loading_10.gif");
+}
+
+.edm-loading-text
+{visibility: visible;}
+
+/*Listedeki Yazıların Çerçeveleri ve Renkleri*/
+.main-document-list-object>li {
+        background: linear-gradient(0deg, rgba(231,231,231,1) 0%, rgba(251,251,251,1) 100%);
+    background-color: #F2F3F5;
+    border-radius: 0.4rem;
+    border: 0.1rem dashed lightgray;
+}
+
+/*Listedeki Yazıların Solundaki Okunmadı Çizgileri*/
+.main-document-list-object>li>.is-read {background-color: #004FCC}
+.main-document-list-object>li .subject.unread {color: #004FCC}
+
+
+
+/*Soldaki Yazı, Ekler, İlgiller Butonlarının Renkleri*/
+.editor-left-ikon:active {
+  background: black!important;
+color:white!important;}
+.editor-left-ikon:focus {
+  background: #6E6E6E;}
+ .editor-left-ikon:hover {
+  background: #AEAEAE; color:black;}
+
+
+.sbn-favorite-card i {
+  background-color: #ECECEC;
+  background: linear-gradient(to bottom, #bdc3c7, #ededed)!important;
+   border: 0.09rem solid black;
+    border-radius: 50%;
+  	box-shadow: -2rem 2rem 0 0 #DEDEDE, 2rem -2rem 0 0 #DEDEDE;
+      color: black;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 4rem; }
+
+/* TABLAR */
+.rdTab {background-color:#E6E6E6!important}
+.rdTab:hover {background-color:#BEBEBE!important}
+.rdTabActive {background-color:white!important}
+
+/*SAĞ ÜSTTEKİ  YUVARLAKLAR*/
+.sb-notf-button {
+    background-color: #E6E6E6!important;
+}
+.sb-notf-button:hover {
+    background-color: gray!important;
+}
+ .sb-notf-button:hover i {
+    color: white!important; /*içi*/
+}
+
+.sb-notf-button:hover i {
+    color: #985b14!important;
+}
+
+/*Soldaki gelen-giden v.s olduğu navigasyon alanı*/
+.e-treeview .e-list-item.e-active>.e-fullrow  {background:linear-gradient(to right, #bdc3c7, #E6E6E6);
+border-color:lightgray;}
+.e-treeview .e-list-item.e-hover>.e-fullrow {background:linear-gradient(to bottom, #bdc3c7, #E6E6E6);}
+.e-treeview .e-list-item.e-active.e-hover>.e-fullrow {background:linear-gradient(to left, #bdc3c7, #E6E6E6);
+border-color:dimgray;}
+.sbn-profile-infos>dl>dt>.sbn-profile-title {
+    padding-left: 0.3rem;
+    border-left: 0.25rem solid #7bc8f3;
+    color: #065078;
+}
+
+.main-document-list-object>li .context-menu {
+    position: relative;
+  background-color: #d8d8d8; }
+
+.main-document-list-object>li .context-menu-list>li {
+    background-color: white;
+    color: #161616;
+    font-size: 0.99rem;
+  	border: 1px solid gray;
+  	width: 1.7rem;
+  	height: 1.7rem;
+}
+
+.e-toolbar .e-toolbar-items .e-toolbar-item .e-tbar-btn.e-btn.e-tbtn-txt .e-icons.e-btn-icon {
+    font-size: 1.5rem; }
+
+
+.MuiListItem-root.Mui-selected, .MuiListItem-root.Mui-selected:hover {
+  background:  linear-gradient(0deg, rgba(212,212,212,1) 0%, rgba(240,240,240,1) 100%); }
+
+.jss2:hover {background: linear-gradient(169deg, rgba(212,212,212,1) 0%, rgba(240,240,240,1) 100%);}
+
+.sbn-notf-container .sidebar-not>.sidebar-title {
+    background: #feefdd;
+    background: linear-gradient(90deg,gray,#fff);
+  color: white!important; }
+
+.sidebar-not span {
+    position: absolute;
+    left: 10px;
+    font-size: 12px;
+    color: gray;
+}
+
+.sbn-notf-container .sidebar-not>.sidebar-notf-icon-container {
+    width: 2rem!important;
+    height: 2rem!important;
+    border: 0.15rem solid black;
+    border-radius: 50%;
+}
+/*sağdaki bildirim kısmı*/
+.sbn-notf-container .sidebar-not .sidebar-more {color:black;}
+
+.sbn-notf-container .sidebar-not>.sidebar-notf-icon-container:before {
+    border-color: transparent transparent transparent black;
+    border-style: solid;
+  border-width: 0.4rem 0.3rem; }
+
+.sbn-favorite-card-button {
+    align-items: center;
+  background-color: rgb(75 75 75 / 80%) }
+  
+  
+  .e-de-pane {background: linear-gradient(90deg, rgba(137,137,148,0.6306897759103641) 0%, rgba(226,226,226,0.5942752100840336) 49%, rgba(191,196,198,0.6138830532212884) 100%);}
+.e-de-prop-pane {
+    width: 200px;
+}
+
+.e-bigger .e-de-panel-left-width, .e-de-panel-left-width {
+    width: 99px;
+}
+
+.e-de-ctnr-segment {flex-direction: column;}
+
+
+ #editorContainer_editor_font_properties_indentWholeDiv {   flex-direction: column;
+}
+
+.e-de-ctnr-segment {
+    margin-bottom: 8px;
+}
+
+.e-de-property-div-padding {
+    border-bottom: none;
+    padding: 4px;
+}
+
+.e-btn .e-btn-icon {
+    font-size: 16px;
+}
+
+.e-de-insert-del-cell button {
+    width: 29.5px;
+}
+
+.e-de-cell-text-box {
+    margin-right: 1px;
+}
