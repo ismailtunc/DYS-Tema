@@ -1,3 +1,4 @@
+
 /*
 BURAYA DAHA SONRA TEKRAR BAKILACAK. SAYFAYI SOLA KAYDIRMAK İÇİN
 canvas {left: -90px!important; position:absolute}
@@ -8,11 +9,14 @@ canvas {left: -90px!important; position:absolute}
 
 /*Sol üst logo */
 .ebys-logo-div {
-    content: url("https://i.ibb.co/Vq3qmkc/Pngegg-1.png");
+    content: url("https://100numaraliadam.com/wp-content/uploads/2020/02/dalgali-turk-bayragi.gif");
     margin-bottom: -65px;
     padding: 8px;
     display: inline;
+  height: 100px;
 }
+
+
 .sb-logo {
   content: url("https://i.ibb.co/D4cJMnH/Sb-logo-4ac28d5f.png")
 }
